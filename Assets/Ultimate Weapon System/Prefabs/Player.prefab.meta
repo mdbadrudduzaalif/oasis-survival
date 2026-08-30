@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d230cd74572f7bb47aaae0a2e8f1aeb5
+timeCreated: 1434702208
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39849
+  packageName: Ultimate Weapon System
+  packageVersion: 1.1
+  assetPath: Assets/Ultimate Weapon System/Prefabs/Player.prefab
+  uploadId: 96328

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Oasis Zombie Survival - Asset & Material Inventory</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 30px; background-color: #1e1e1e; color: #f0f0f0; }
+  h2 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 8px; margin-top: 30px; }
+  h3 { color: #f0883e; margin-top: 15px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; margin-bottom: 25px; background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; }
+  th, td { border: 1px solid #30363d; padding: 12px 14px; vertical-align: top; text-align: left; }
+  th { background-color: #21262d; color: #f0f6fc; font-weight: 600; }
+  tr:nth-child(even) { background-color: #0d1117; }
+  ul { margin: 0; padding-left: 18px; }
+  li { margin-bottom: 4px; }
+  code { background-color: rgba(110,118,129,0.4); padding: 2px 5px; border-radius: 4px; font-family: monospace; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Oasis Zombie Survival — Complete Asset & Material Inventory</h1>
+<p><i>Tip: Select any table below, press <b>Ctrl+C / Cmd+C</b>, and paste directly into <b>Apple Notes</b> or <b>Pages / Word / Excel</b> to get a rich formatted table.</i></p>
+
+<h2>1. Weapon & Combat Systems</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Asset Pack Name</th>
+      <th>Role in Game</th>
+      <th>Models & Prefabs</th>
+      <th>Materials Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Ultimate Weapon System</b></td>
+      <td>Primary Player Firearm & Ejected Brass</td>
+      <td>
+        <ul>
+          <li><code>M4CHA.fbx</code> (M4A1 Rifle with moving bolt, trigger, mag)</li>
+          <li><code>Bullet_Shell.fbx</code></li>
+          <li><code>Bullet_Shell_Physics.prefab</code></li>
+          <li><code>BallProjectile.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>M4A1_mat.mat</code></li>
+          <li><code>Bullet_Shell_Gold.mat</code></li>
+          <li><code>Sem_Muzzle.mat</code></li>
+          <li><code>prototype_black_dff.mat</code></li>
+          <li><code>lambert1.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>FreeWeaponSounds</b><br><i>(Sonniss / David Dumais)</i></td>
+      <td>Gunshot & Tactical Reload Audio</td>
+      <td>
+        <ul>
+          <li>40 Audio Clips:</li>
+          <li><code>assault_rifle_gunshot_01..03.wav</code></li>
+          <li><code>drop_the_mag.wav</code></li>
+          <li><code>insert_the_mag.wav</code></li>
+          <li><code>bolt.wav</code></li>
+          <li><code>sil_gunshot.wav</code></li>
+        </ul>
+      </td>
+      <td><i>N/A (Audio SFX Pack)</i></td>
+    </tr>
+    <tr>
+      <td><b>Gece Studio</b></td>
+      <td>Alternate Firearm Reference</td>
+      <td>
+        <ul>
+          <li><code>Rifle_HK416.fbx</code></li>
+          <li><code>Rifle_HK416.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>M_Rifle-HK416.mat</code></li>
+          <li><code>M_Rifle-HK416_Fantastic.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>2. Zombie Characters & Enemy AI</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Asset Pack Name</th>
+      <th>Role in Game</th>
+      <th>Models & Prefabs</th>
+      <th>Materials Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>ZombieMale_AAB</b><br><i>(Mixamo / AAA Zombie Pack)</i></td>
+      <td>Horde Enemy Base:<br>• Suit Civilian<br>• Floor Crawler<br>• Goliath Boss</td>
+      <td>
+        <ul>
+          <li><code>ZombieMale_AAB.fbx</code></li>
+          <li><code>ZombieMale_AAB_BodyParts.fbx</code></li>
+          <li>53 FBX Animations (attack, crawl, bite, scream, run, walk, death, reaction_hit)</li>
+          <li>Prefabs: <code>Suit_Civilian</code>, <code>Shirtless_Crawler</code>, <code>Skinless_Berserker</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>ZombieMale_Body_MAT_URP.mat</code></li>
+          <li><code>ZombieMale_Head_V1_MAT 1.mat</code></li>
+          <li><code>ZombieMale_LowerBody_MAT_URP.mat</code></li>
+          <li><code>ZombieMale_Shirt_MAT_URP.mat</code></li>
+          <li><code>Zombie_Eyes_MAT_URP.mat</code></li>
+          <li><code>ZombieMale_Teeth_MAT_V1.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>NewPunch</b><br><i>(Shirtless Zombie FREE Pack)</i></td>
+      <td>Horde Enemy Variant:<br>• Shirtless Ghoul</td>
+      <td>
+        <ul>
+          <li><code>ShirtlessZombie_FREE.fbx</code></li>
+          <li><code>ShirtlessZombie_BodyParts_FREE.fbx</code></li>
+          <li><code>Shirtless_Ghoul.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>ZombieBB_Body_URP.mat</code></li>
+          <li><code>ZombieBB_Clothes_URP.mat</code></li>
+          <li><code>ZombieBB_Body_V3.mat</code></li>
+          <li><code>ZombieBB_Clothes_V3.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Tensori</b><br><i>(Skinless Horror Pack)</i></td>
+      <td>Berserker Variant & Weapon Props</td>
+      <td>
+        <ul>
+          <li><code>skinless zombie.fbx</code></li>
+          <li><code>fireaxe.fbx</code></li>
+          <li><code>angry01.fbx</code>, <code>idle01.fbx</code>, <code>idle02.fbx</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>Skin.mat</code></li>
+          <li><code>Pants.mat</code></li>
+          <li><code>Axe.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>ZombieHorrorPackageFree</b></td>
+      <td>Zombie Screams, Groans, Bites & Blood Audio</td>
+      <td>
+        <ul>
+          <li>44 Audio Clips:</li>
+          <li><code>Zombie_Attack_Bite_001..002.wav</code></li>
+          <li><code>Blood_Splash_A_001..003.wav</code></li>
+          <li><code>Foley_BodyFall_001..003.wav</code></li>
+          <li><code>Zombie_Eat.wav</code>, <code>Zombie_Scream.wav</code></li>
+        </ul>
+      </td>
+      <td><i>N/A (Audio SFX Pack)</i></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>3. Environment & Level Design (The Desert Oasis Map)</h2>
+<p><b>Asset Pack:</b> Unity Oasis Environment (<code>Assets/Scenes/Oasis/</code>)</p>
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Meshes & Models</th>
+      <th>Materials Used (49 Materials)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Terrain, Dunes & Cliffs</b></td>
+      <td>
+        <ul>
+          <li><code>Terrain_01_Mesh.fbx</code></li>
+          <li><code>Cliff_01_Mesh</code> to <code>Cliff_03_Mesh</code></li>
+          <li><code>Mountain_01_Mesh</code>, <code>Mountain_02_Mesh</code></li>
+          <li><code>BigRock_01_Mesh</code></li>
+          <li><code>Rock_01_Mesh</code> to <code>Rock_06_Mesh</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>OasisTerrain_Mat.mat</code></li>
+          <li><code>OasisTerrainExtra_Mat.mat</code></li>
+          <li><code>Cliff_01_Mat.mat</code>, <code>Cliff_02_Mat.mat</code></li>
+          <li><code>Mountain_01_Mat.mat</code>, <code>Mountain_02_Mat.mat</code></li>
+          <li><code>BigRock_01_Mat.mat</code>, <code>Rock_01_Mat.mat</code></li>
+          <li><code>Gravel_01_Mat.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Skybox & Oasis Water</b></td>
+      <td>Sky Dome & Water Plane</td>
+      <td>
+        <ul>
+          <li><code>OasisSunsetSkybox_Mat.mat</code></li>
+          <li><code>OasisWater_Mat.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Desert Foliage & Palms</b></td>
+      <td>
+        <ul>
+          <li><code>Palm_Mesh.fbx</code> (<code>Palm_2</code> to <code>Palm_6</code>)</li>
+          <li><code>Grass_Mesh.fbx</code> (<code>Grass_2</code> to <code>Grass_Long_4</code>)</li>
+          <li><code>Fountain_Mesh.fbx</code>, <code>ST_Wind_Cliff.fbx</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>PalmBark_Mat.mat</code>, <code>PalmLeafAtlas_Mat.mat</code></li>
+          <li><code>PalmAtlas_Mat.mat</code>, <code>DarkBark_Mat.mat</code></li>
+          <li><code>GrassAtlas_Mat.mat</code>, <code>LongGrassAtlas_Mat.mat</code></li>
+          <li><code>LargeGrassAtlas_Mat.mat</code>, <code>ShortGrassAtlas_Mat.mat</code></li>
+          <li><code>FountainAtlas_Mat.mat</code>, <code>FountainStem_Mat.mat</code></li>
+          <li><code>SagoLeaf_Mat.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Bedouin Campsite & Props</b></td>
+      <td>
+        <ul>
+          <li><code>Tent_01_Mesh</code> to <code>Tent_10_Mesh</code></li>
+          <li><code>Carpets_Big_01_Mesh</code>, <code>Carpets_Ground_01_Mesh</code></li>
+          <li><code>Cushions_01_Mesh</code>, <code>Firepit_01_Mesh</code></li>
+          <li><code>Shisha_01_Mesh</code>, <code>Teaset_Teapot_01_Mesh</code></li>
+          <li><code>Teleporter_Platform_01_Mesh</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>Tent_01_Mat.mat</code>, <code>Tent_Stand_01_Mat.mat</code></li>
+          <li><code>Tent_Strings_01_Mat.mat</code>, <code>Tent_Tiling_01_Mat.mat</code></li>
+          <li><code>Carpets_01_Mat.mat</code>, <code>Carpets_02_Mat.mat</code></li>
+          <li><code>Carpets_Big_01_Mat.mat</code>, <code>Carpets_Big_02_Mat.mat</code></li>
+          <li><code>Cushions_01_Mat.mat</code>, <code>Cushions_02_Mat.mat</code></li>
+          <li><code>Firepit_01_Mat.mat</code>, <code>Shisha_01_Mat.mat</code></li>
+          <li><code>Teaset_01_Mat.mat</code>, <code>Teleporter_Platform_01_Mat.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Surface Decals</b></td>
+      <td>Terrain Detail Projections</td>
+      <td>
+        <ul>
+          <li><code>SandDecal_Mat.mat</code></li>
+          <li><code>GravelDecal_Mat.mat</code></li>
+          <li><code>LeakDecal_Mat.mat</code></li>
+          <li><code>BlackGrungeDecal_M.mat</code></li>
+          <li><code>WhiteGrungeDecal_Mat.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4. Survival Pickups & Drops</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Asset Pack Name</th>
+      <th>Role in Game</th>
+      <th>Models & Prefabs</th>
+      <th>Materials Used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>AmmoBox</b><br><i>(Military Ammo Box)</i></td>
+      <td>3D Physical Ammo Resupply Drop</td>
+      <td>
+        <ul>
+          <li><code>AmmoBox.FBX</code></li>
+          <li><code>AmmoBox_Pickup.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>AmmoBox.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>First aid jar</b></td>
+      <td>3D Physical Health Restorative Drop</td>
+      <td>
+        <ul>
+          <li><code>Firstaid.fbx</code></li>
+          <li><code>HealthJar_Pickup.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>Firstaid.mat</code></li>
+          <li><code>Firstaid_2.mat</code></li>
+          <li><code>HealthJar_Glass.mat</code></li>
+          <li><code>HealthJar_Core.mat</code></li>
+          <li><code>HealthJar_Cap.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>5. Weather, Particles & UI Framework</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Component / Pack</th>
+      <th>Role in Game</th>
+      <th>Assets & Textures</th>
+      <th>Materials / Shaders</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Dynamic Sandstorm Weather</b></td>
+      <td>3D Atmospheric Dust & Flying Sand FX</td>
+      <td>
+        <ul>
+          <li><code>TX_WispySmoke03b_8x8.png</code></li>
+          <li><code>TX_TinyStones_D.png</code></li>
+          <li><code>GraininessDustWave_T_N.png</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>DustCloudMat</code> (URP Particle Alpha Blend)</li>
+          <li><code>SandGrainsMat</code> (URP Stretched Particle)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>SharedAssets & TextMeshPro</b></td>
+      <td>Player Rig, Camera & HUD Font Assets</td>
+      <td>
+        <ul>
+          <li><code>PlayerCapsule.prefab</code></li>
+          <li><code>MainCamera.prefab</code></li>
+          <li><code>RuntimeDataCanvas_Prefab.prefab</code></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><code>LiberationSans SDF - Drop Shadow.mat</code></li>
+          <li><code>LiberationSans SDF - Outline.mat</code></li>
+          <li><code>BackgroundCirkle.mat</code></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><b>Gabriel Pereira</b></td>
+      <td>Pause System Integration</td>
+      <td>
+        <ul>
+          <li><code>Pause Manager.prefab</code></li>
+        </ul>
+      </td>
+      <td>Default URP UI Materials</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
