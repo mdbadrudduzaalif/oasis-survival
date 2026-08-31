@@ -1,5 +1,4 @@
-# Oasis Survival: Desert Defense - University Project Deliverable
-
+# Oasis Survival: Desert Defense
 ## 📌 Project Overview
 **Oasis Survival** is a 3D First-Person Zombie Wave-Defense Shooter built in **Unity (Universal Render Pipeline)** with a complete 3-Tier architecture and relational database backend (**Microsoft SQL Server** + **ASP.NET Core Web API**).
 
